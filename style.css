@@ -8,9 +8,11 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: adellesansregular, Arial, Helvetica, sans-serif;
+    font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
+
 
 .box {
     box-sizing: border-box;
@@ -45,6 +47,10 @@ body {
 
 .fact-wrapper {
     display: flex;
+}
+
+.byline-wrapper hr {
+    width: 330px;
 }
 
 
@@ -105,7 +111,8 @@ video {
     display: none;
 }
 
-#topimg {
+/* #topimg {
+    min-height: 500px;
     height: 100vh;
     background: #a7cece;
     background-image: url('media/DSC_1845.jpg');
@@ -115,7 +122,7 @@ video {
     text-align: center;
     background-position: center;
     overflow-x: hidden;
-}
+} */
 
 p {
     font-size: 18px;
@@ -206,11 +213,7 @@ hr {
     color: #515150;
 }
 
-.bylineimglarge {
-    position: relative;
-    height: 60px;
 
-}
 
 .bylineimg img {
     display: block;
@@ -225,9 +228,7 @@ hr {
     margin: auto;
 }
 
-#header {
-    padding: 0;
-}
+
 
 .bildetekst {
     margin-left: 25px;
@@ -269,16 +270,7 @@ hr {
 .min-width700 {
     min-width: 700px;
 }
-#img4 {
-    background-image: url(media/Bollestad1.jpg);
-    height: 120vh;
-}
 
-#img5 {
-    background-image: url(media/Bollestad10.jpg);
-    height: 125vh;
-    
-}
 
 
 /******** SMALL SCREEN *******/
@@ -316,8 +308,7 @@ hr {
     .bylineimg img {
         display: block;
         position: relative;
-        top: 35px;
-        left: 40px;
+      
         margin: auto;
         height: 60px;
     }
@@ -364,8 +355,7 @@ hr {
     .bylineimg img {
         display: block;
         position: relative;
-        top: 35px;
-        left: 140px;
+        
         margin: auto;
         height: 60px;
     }
@@ -416,27 +406,7 @@ hr {
     }
 
 
-    #topimg {
-        background-attachment: fixed;
-        height: calc(200vh + 600px);
-    }
-
-
-
-    #img2 {
-        background-image: url(media/DSC_1803.jpg);
-        height: calc(400vh + 800px);
-    }
-
-    #img3 {
-        background-image: url(media/DSC_1899.jpg);
-        height: 120vh;
-    }
-
-    #img4 {
-        background-image: url(media/Bollestad1.jpg);
-        height: 120vh;
-    }
+   
 
     .facts-item p::before {
         /* add the new bullet point */
@@ -540,33 +510,11 @@ hr {
         *** SKAL LEGGES ETTER BASIC ER FIKSET ***
      */
 
-    #topimg .container-fluid .row .ingress-med {
-        font-size: 1.5rem;
-        margin: auto;
-        position: relative;
-        background: white;
-        padding: 25px;
-        box-shadow: 0px 0px 1px #ccc;
-    }
+    
 
-    #img2 {
-        height: calc(400vh + 800px);
-    }
+   
 
-    #img3 {
-        background-image: url(media/DSC_1899.jpg);
-        height: 120vh;
-    }
-
-    #img4 {
-        background-image: url(media/Bollestad1.jpg);
-        height: 120vh;
-    }
-
-    .ingress-med .byline img {
-        margin-top: 50px;
-        margin-bottom: 25px;
-    }
+   
 
     .ingress h3 {
         font-size: 35px;
@@ -632,11 +580,7 @@ hr {
 
     /*  Høyde kalkulert 50vh mellom hvert element + px høyden totalt for elementene  */
 
-    #img2 {
-        background-image: url(media/DSC_1803.jpg);
-        height: calc(400vh + 600px);
-
-    }
+    
 
     .sitat p {
         font-size: 30px;
