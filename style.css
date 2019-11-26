@@ -87,6 +87,11 @@ video {
     background-position: center;
     overflow-x: hidden;
 }
+.portrait img{
+    margin: auto;
+    display: block;
+    width: 75%;
+}
 
 .portraitimg img {
 
