@@ -87,6 +87,11 @@ video {
     background-position: center;
     overflow-x: hidden;
 }
+.portrait img{
+    margin: auto;
+    display: block;
+    width: 75%;
+}
 
 .portraitimg img {
 
@@ -394,7 +399,7 @@ hr {
     h1 {
         font-size: 50px;
         margin-top: 50px;
-        margin-bottom: 80vh;
+        
     }
 
     h4 {
@@ -561,9 +566,6 @@ hr {
         font-size: 20px;
     }
 
-
-
-
 }
 
 
@@ -575,7 +577,7 @@ hr {
     h1 {
         font-size: 50px;
         margin-top: 50px;
-        margin-bottom: 90vh;
+        
     }
 
     /*  Høyde kalkulert 50vh mellom hvert element + px høyden totalt for elementene  */
