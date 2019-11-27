@@ -8,11 +8,26 @@ h1 {
 
 audio {
     padding: 20px ;
+    width: 300px;
     box-sizing: content-box;
     display: block;
     margin: 75px auto;
-    border: solid 2px #9a9a9a;
+    border: solid 2px #515151;
     border-radius: 50px;
+}
+
+.audio::before{
+    content: 'HØR';
+    position: relative;
+    font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+    top: 95px;
+    left: 25%;
+    z-index: 500;
+    font-size: 25px;
+    
+    
+    background-color: white;
+    padding:0px 3px 0px 5px;
 }
 /* TODO. gi img en ny klasse*/
 
@@ -56,6 +71,19 @@ iframe {
         font-size:70px;
         max-width: 100%;
         margin: auto;
+    } 
+    
+    .audio::before{
+        content: 'HØR';
+        position: relative;
+        font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+        top: 95px;
+        left: 150px;
+        z-index: 500;
+        font-size: 25px;        
+        
+        background-color: white;
+        padding:0px 5px 0px 7px;
     }
 
 }
@@ -70,6 +98,18 @@ iframe {
         margin: auto;
     }
 
+    .audio::before{
+        content: 'HØR';
+        position: relative;
+        font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+        top: 95px;
+        left: 230px;
+        z-index: 500;
+        font-size: 25px; 
+        background-color: white;
+        padding:0px 5px 0px 7px;
+    }
+
 }
 
 @media only screen and (min-width:992px){
@@ -82,14 +122,38 @@ iframe {
         margin: auto;
     }
 
+    .audio::before{
+        content: 'HØR';
+        position: relative;
+        font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+        top: 95px;
+        left: 345px;
+        z-index: 500;
+        font-size: 25px;
+        background-color: white;
+        padding:0px 5px 0px 7px;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
     h1 {
-    color: #515151;
-    font-family: adelle_sansheavy;
-    font-size:170px;
-    max-width: 100%;
-    margin: auto;
-}
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:170px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .audio::before{
+        content: 'HØR';
+        position: relative;
+        font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+        top: 95px;
+        left: 440px;
+        z-index: 500;
+        font-size: 25px;
+        background-color: white;
+        padding:0px 5px 0px 7px;
+    }
 }
