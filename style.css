@@ -219,6 +219,7 @@ hr {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 75px;
     color: #515150;
 }
 
@@ -297,6 +298,7 @@ hr {
 
     .ingress h3 {
         font-size: 25px;
+        margin-bottom: 75px;
     }
 
     .text p {
@@ -340,6 +342,7 @@ hr {
 
     .ingress h3 {
         font-size: 25px;
+        margin-bottom: 75px;
     }
 
     .text p {
