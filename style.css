@@ -90,7 +90,7 @@ video {
 .portrait img{
     margin: auto;
     display: block;
-    max-height: 100vh;
+    max-height: 95vh;
     width: auto;
 }
 
