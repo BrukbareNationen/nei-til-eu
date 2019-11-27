@@ -9,6 +9,10 @@ h1 {
     font-size: 45px;
 }
 
+.small-img img {
+    width: 100%;
+}
+
 audio {
     padding: 20px ;
     width: 300px;
@@ -34,11 +38,7 @@ audio {
 }
 /* TODO. gi img en ny klasse*/
 
-img {
-    width: 100%;
-    
-    
-}
+
 
 h5 {
     text-align: center;
@@ -101,6 +101,11 @@ iframe {
         background-color: white;
         padding:0px 5px 0px 7px;
     }
+    .portrait img{
+        margin: auto;
+        display: block;    
+        max-width: 600px;
+    }
 
 }
 
@@ -128,6 +133,12 @@ iframe {
         font-size: 25px; 
         background-color: white;
         padding:0px 5px 0px 7px;
+    }
+
+    .portrait img{
+        margin: auto;
+        display: block;    
+        max-width: 600px;
     }
 
 }

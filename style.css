@@ -87,11 +87,12 @@ video {
     background-position: center;
     overflow-x: hidden;
 }
+
+
 .portrait img{
     margin: auto;
-    display: block;
-    max-height: 95vh;
-    width: auto;
+    display: block;    
+    width: 100%;
 }
 
 .portrait i {
