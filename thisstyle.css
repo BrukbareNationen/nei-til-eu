@@ -11,7 +11,7 @@ audio {
     width: 300px;
     box-sizing: content-box;
     display: block;
-    margin: 75px auto;
+    margin: 15px auto 75px auto;
     border: solid 2px #515151;
     border-radius: 50px;
 }
@@ -20,7 +20,7 @@ audio {
     content: 'HØR';
     position: relative;
     font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
-    top: 95px;
+    top: -5px;
     left: 25%;
     z-index: 500;
     font-size: 25px;
@@ -33,6 +33,8 @@ audio {
 
 img {
     width: 100%;
+    
+    
 }
 
 h5 {
@@ -72,12 +74,15 @@ iframe {
         max-width: 100%;
         margin: auto;
     } 
-    
+    .audio {
+        height: 0;
+    }
+
     .audio::before{
         content: 'HØR';
         position: relative;
         font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
-        top: 95px;
+        top: -5px;
         left: 150px;
         z-index: 500;
         font-size: 25px;        
@@ -102,7 +107,7 @@ iframe {
         content: 'HØR';
         position: relative;
         font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
-        top: 95px;
+        top: -5px;
         left: 230px;
         z-index: 500;
         font-size: 25px; 
@@ -126,7 +131,7 @@ iframe {
         content: 'HØR';
         position: relative;
         font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
-        top: 95px;
+        top: -5px;
         left: 345px;
         z-index: 500;
         font-size: 25px;
@@ -149,7 +154,7 @@ iframe {
         content: 'HØR';
         position: relative;
         font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
-        top: 95px;
+        top: -5px;
         left: 440px;
         z-index: 500;
         font-size: 25px;

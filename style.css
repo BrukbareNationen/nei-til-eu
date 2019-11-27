@@ -90,8 +90,14 @@ video {
 .portrait img{
     margin: auto;
     display: block;
-    width: 100%;
+    max-height: 100vh;
+    width: auto;
 }
+
+.portrait i {
+    text-align: center;
+}
+
 
 .portraitimg img {
 
