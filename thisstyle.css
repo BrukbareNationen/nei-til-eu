@@ -1,0 +1,95 @@
+h1 {
+    color: #515151;
+    font-family: adelle_sansheavy;
+    font-size:50px;
+    max-width: 100%;
+    margin: auto;
+}
+
+audio {
+    padding: 20px ;
+    box-sizing: content-box;
+    display: block;
+    margin: 75px auto;
+    border: solid 2px #9a9a9a;
+    border-radius: 50px;
+}
+/* TODO. gi img en ny klasse*/
+
+img {
+    width: 100%;
+}
+
+h5 {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+}
+
+.padding {
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+
+@media only screen and (min-width:464px){
+
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:70px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width:576px){
+
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:70px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:100px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width:992px){
+
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:140px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    h1 {
+    color: #515151;
+    font-family: adelle_sansheavy;
+    font-size:170px;
+    max-width: 100%;
+    margin: auto;
+}
+}
