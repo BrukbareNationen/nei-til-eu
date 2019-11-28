@@ -15,7 +15,7 @@ h1 {
 
 audio {
     padding: 20px ;
-    width: 250px;
+    width: 200px;
     box-sizing: content-box;
     display: block;
     margin: 15px auto 75px auto;
@@ -27,7 +27,7 @@ audio {
     content: 'HØR';
     position: relative;
     font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
-    top: -5px;
+    top: 30px;
     left: 25%;
     z-index: 500;
     font-size: 25px;
@@ -54,6 +54,12 @@ iframe {
 .padding {
     margin-bottom: 50px;
     margin-top: 50px
+}
+
+@media only screen and (min-width:350px) {
+    audio {
+        width: 250px;
+    }
 }
 
 @media only screen and (min-width:464px){
