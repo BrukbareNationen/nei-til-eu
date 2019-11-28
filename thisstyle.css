@@ -51,7 +51,8 @@ audio {
   bottom: 8px;
   left: 16px;
   color:white;  
-  max-width: 60% ;
+  max-width: 100% ;
+  font-size: 14px;
 
 }
 
@@ -115,6 +116,11 @@ iframe {
     .h1 {
         font-size: 87px;
     }
+
+    .tekst-over-bilde {
+        max-width: 95%;
+        font-size: 15px;
+    }
     .audio {
         height: 0;
     }
@@ -171,6 +177,11 @@ iframe {
         max-width: 600px;
     }
 
+    .tekst-over-bilde {
+        max-width: 95%;
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (min-width:992px){
@@ -184,6 +195,11 @@ iframe {
     }
     .h1 {
         font-size: 150px;
+    }
+
+    .tekst-over-bilde {
+        max-width: 80%;
+        font-size: 16px;
     }
 
     .audio::before{
@@ -210,6 +226,11 @@ iframe {
     }
     .h1 {
         font-size: 190px;
+    }
+
+    .tekst-over-bilde {
+        max-width: 70%;
+        font-size: 17px;
     }
 
     .audio::before{
