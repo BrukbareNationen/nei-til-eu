@@ -12,6 +12,10 @@ h1 {
 .small-img img {
     width: 100%;
 }
+.iframe {
+    width: 300px;
+    margin: auto;
+}
 
 .lenk {
     color: black;
@@ -102,6 +106,11 @@ iframe {
     audio {
         width: 250px;
     }
+
+    .iframe {
+        width: 350px;
+        margin: auto;
+    }
 }
 
 @media only screen and (min-width:464px){
@@ -116,6 +125,11 @@ iframe {
 
     .h1 {
         font-size: 64px;
+    }
+
+    .iframe {
+        width: 450px;
+        margin: auto;
     }
 
     audio {
@@ -185,6 +199,11 @@ iframe {
         font-size: 120px;
     }
 
+
+    .iframe {
+        width: 650px;
+        margin: auto;
+    }
     .audio::before{
         content: 'HØR';
         position: relative;
