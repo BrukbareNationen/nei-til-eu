@@ -20,7 +20,7 @@ h1 {
 .lenk:hover {
     cursor: pointer;
     text-decoration: none;
-    
+    color: #515151;
 }
 
 audio {
