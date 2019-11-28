@@ -56,6 +56,14 @@ audio {
 
 }
 
+.small {
+    display: block;
+}
+
+.large {
+    display: none;
+}
+
 
 /* TODO. gi img en ny klasse*/
 
@@ -101,6 +109,11 @@ iframe {
         width: 300px;
     }
 
+    .tekst-over-bilde {
+        max-width: 95%;
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (min-width:576px){
@@ -119,7 +132,7 @@ iframe {
 
     .tekst-over-bilde {
         max-width: 95%;
-        font-size: 15px;
+        font-size: 16px;
     }
     .audio {
         height: 0;
@@ -169,6 +182,14 @@ iframe {
         font-size: 25px; 
         background-color: white;
         padding:0px 5px 0px 7px;
+    }
+
+    .small {
+        display: none;
+    }
+    
+    .large {
+        display: block;
     }
 
     .portrait img{
