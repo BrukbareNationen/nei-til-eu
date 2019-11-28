@@ -15,7 +15,7 @@ h1 {
 
 audio {
     padding: 20px ;
-    width: 300px;
+    width: 250px;
     box-sizing: content-box;
     display: block;
     margin: 15px auto 75px auto;
@@ -68,6 +68,10 @@ iframe {
 
     .h1 {
         font-size: 64px;
+    }
+
+    audio {
+        width: 300px;
     }
 
 }
