@@ -472,7 +472,7 @@
         <div class="row text">
             <div class="col-12 padding"></div>
             <div class="col-12">
-                <p>Ei VG-utgåve sommaren 1994 kunne fortelje at nestleiar Nordlund «sjokker ut og vil ha høye tollmurer
+                <p>Ei VG-utgåve sommaren 1992 kunne fortelje at nestleiar Nordlund «sjokker ut og vil ha høye tollmurer
                     rundt landet».
                 </p>
                 <p>Bakgrunnen var at ho hadde blitt beden om å snakke om alternativ økonomi i eit rådsmøte i Nei til EU.
@@ -658,6 +658,17 @@
 
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('play', function(e){
+            var audios = document.getElementsByTagName('audio');
+            for(var i = 0, len = audios.length; i < len;i++){
+            if(audios[i] != e.target){
+            audios[i].pause();
+                }
+            }
+        }, true);
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     </script>
